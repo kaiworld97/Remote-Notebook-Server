@@ -27,7 +27,7 @@ class ServerGUI:
         self.server_manager = server_manager
         
         # 창 제목 설정
-        master.title("Remote Key Mapper Server")
+        master.title("Remote Notebook Server")
         
         # 창 아이콘 설정 (OS에 따라 다르게)
         self.set_window_icon(master)
