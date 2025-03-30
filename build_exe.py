@@ -31,7 +31,7 @@ def build_exe():
     # PyInstaller 설정
     pyinstaller_args = [
         'main.py',                          # 메인 스크립트
-        '--name=RemoteKeyMapperServer',     # 출력 파일 이름
+        '--name=RemoteNotebookServer',     # 출력 파일 이름
         '--onefile',                        # 단일 exe 파일로 생성
         '--windowed',                       # 콘솔 창 없이 실행
         '--add-data=key_codes.py;.',        # 키코드 모듈 포함

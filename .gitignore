@@ -51,3 +51,5 @@ coverage.xml
 
 # Log files
 *.log
+
+*.spec
